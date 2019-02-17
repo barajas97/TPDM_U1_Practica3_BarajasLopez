@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:background="@drawable/imagenfondo"
+
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toy Story Club!"
+        android:textSize="45dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:id="@+id/bienvenida"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To infinity and beyond..."
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bienvenida"/>
+
+    <ImageView
+        android:id="@+id/imageS"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/buzz" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/woody"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageS"
+        />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/jesi"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/salvado"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="250dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register me"
+        android:background="#663300"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="430dp"
+        android:id="@+id/botonR"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/botonSi"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/botonR"
+        android:layout_marginBottom="20dp"
+        android:background="#de8730"
+        android:text="Sign in"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:background="#de8730"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_below="@id/botonR"
+        android:layout_toRightOf="@id/botonSi"
+        android:layout_marginLeft="20dp"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/iuno"
+        android:layout_below="@+id/botonSi"
+        android:id="@+id/abajo1"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="20dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/idos"
+        android:layout_below="@id/botonSi"
+        android:layout_toRightOf="@id/abajo1"
+        android:id="@+id/abajo2"
+        android:layout_marginRight="35dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/itres"
+        android:layout_below="@id/botonSi"
+        android:layout_toRightOf="@id/abajo2"
+        android:id="@+id/abajo3"
+        android:layout_marginRight="35dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/icuatro"
+        android:layout_below="@id/botonSi"
+        android:layout_toRightOf="@id/abajo3"
+        android:id="@+id/abajo4"
+        android:layout_marginRight="35dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/icinco"
+        android:layout_below="@id/botonSi"
+        android:layout_toRightOf="@id/abajo4"/>
+
+
+</RelativeLayout>
